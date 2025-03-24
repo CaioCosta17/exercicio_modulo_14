@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#cabecalho {
+    background-color: #050D9E;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: #050D9E;
+}
+
+#sobre-a-academia,
+#fale-conosco {
+    background-color: #4851ff57;
+}
+
+#locais .nav-link.active,
+#fale-conosco button {
+    background-color: #050D9E;
+    color: #fff;
+}
+
+#image-fachada {
+    width: 400px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #020546;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtreme Gym</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-title border py-3 px-2 rounded navbar-dark">Xtreme Gym</h1>
+            <button class="navbar-toggler navbar-dark border" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex pt-sm-4">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-a-academia">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Xtreme Gym
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#programas">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Práticas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#locais">
+                            <i class="bi bi-card-text me-1"></i>
+                            Unidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-academia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Images/Carousel/Banner 1.jpg" class="d-block w-100" alt="Banner 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/Carousel/Banner 2.jpg" class="d-block w-100" alt="Banner 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/Carousel/Banner 3.jpg" class="d-block w-100" alt="Banner 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./Images/Content/Fachada Xtreme Gym.png" id="image-fachada" class="d-block w-100" alt="Fachada da Academia Xtreme Gym">
+                        </div>
+                        <div class="col-md mt-3 mt-md-0">
+                            <h2 class="section-title fw-bold">Sobre <span class="text-colored">a Xtreme Gym</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+                                eaque repudiandae corrupti asperiores cumque magni praesentium reprehenderit 
+                                officiis autem. Laborum quasi cumque ea accusantium in eligendi suscipit, expedita 
+                                atque? Laudantium?
+                            </p>
+                            <h3 class="section-title fw-bold">Sobre <span class="text-colored">o Espaço</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+                                eaque repudiandae corrupti asperiores cumque magni praesentium reprehenderit 
+                                officiis autem. Laborum quasi cumque ea accusantium in eligendi suscipit, expedita 
+                                atque? Laudantium?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="programas">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold">Conheça nossos <span class="text-colored">Programas de Treinos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./Images/Content/Box.png" alt="" class="d-block w-100 mb-3 rounded">
+                        <h3 class="section-title text-colored fs-4 fw-bold text-center">
+                            <i class="bi bi-fire"></i>
+                            Hora do Combate
+                        </h3>
+                        <p class="text-center">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+                            eaque repudiandae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./Images/Content/Cardio.png" alt="" class="d-block w-100 mb-3 rounded">
+                        <h3 class="section-title text-colored fs-4 fw-bold text-center">
+                            <i class="bi bi-bicycle fs-3"></i>
+                            Corrida e Movimento
+                        </h3>
+                        <p class="text-center">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+                            eaque repudiandae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./Images/Content/Yoga.png" alt="" class="d-block w-100 mb-3 rounded">
+                        <h3 class="section-title text-colored fs-4 fw-bold text-center">
+                            <i class="bi bi-person-arms-up"></i>
+                            Relax e Flex
+                        </h3>
+                        <p class="text-center">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+                            eaque repudiandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="locais" class="py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Uma Xtreme Gym <span class="text-colored">Perto de Você</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button data-bs-toggle="tab" data-bs-target="#sao-paulo" class="fw-bold text-start nav-link text-colored active" type="button">São Paulo</button>
+                        <button data-bs-toggle="tab" data-bs-target="#bahia" class="fw-bold text-start nav-link text-colored" type="button">Bahia</button>
+                        <button data-bs-toggle="tab" data-bs-target="#rio-de-janeiro" class="fw-bold text-start nav-link text-colored" type="button">Rio de Janeiro</button>
+                        <button data-bs-toggle="tab" data-bs-target="#espirito-santo" class="fw-bold text-start nav-link text-colored" type="button">Espirito Santo</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="sao-paulo">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded pt-2" src="./Images/Units Images/Unidade 1.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-center text-colored">Unidade em Guarulhos</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded pt-2" src="./Images/Units Images/Unidade 2.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-center text-colored">Unidade em Campinas</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded pt-2" src="./Images/Units Images/Unidade 3.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-center text-colored">Unidade em Osasco</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bahia">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 1.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Feira de Santana</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 2.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Salvador</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 3.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Teixeira de Freitas</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="rio-de-janeiro">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 1.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em São Gonçalo</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 2.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Duque de Caxias</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 3.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Nova Iguaçu</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="espirito-santo">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 1.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Vila Velha</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 2.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em Vitória</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded" src="./images/Units Images/Unidade 3.png" alt="Cerveja">
+                                    <h5 class="text-colored fw-bold mt-2 text-center">Unidade em São Mateus</h5>
+                                    <p class="text-center">
+                                        Avenida Bootstrap JavaScript, 123 
+                                        <span class="fw-bold">Aberto das 07:00 às 22:00</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">Conosoco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-colored" for="nome">Seu Nome</label>
+                            <input class="form-control" type="text" id="nome" placeholder="Nome Completo" name="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-colored" for="email">Seu E-mail</label>
+                            <input class="form-control" type="email" id="email" placeholder="SeuEmail@gmail.com" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-colored" for="telefone">Seu Telefone (Opicional)</label>
+                            <input class="form-control" type="tel" id="telefone" name="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-colored" for="mensagem">Sua Mensagem</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                        </div>
+                        <button class="btn fw-bold" type="button">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-tittle fs-4 text-colored pt-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored" ></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 mx-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored" ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-tittle fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copy">
+            <p class="text-center fw-bold">
+                &copy; Todos os Direitos Reservados - 2025
+            </p>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./Lib/jquery.mask.min.js"></script>
+    <script src="./Lib/jquery.validate.min.js"></script>
+    <script src="./Lib/messages_pt_BR.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#telefone').mask('(00) 00000-0000', {
+                placeholder: '(00) 00000-0000'
+            })
+        })
+    </script>
+</body>
+</html>
+
+
+$('form').validate({
+    rules: {
+        nome: {
+            required: true
+        }
+        email: {
+            required: true,
+            email: true
+        }
+        telefone: {
+            required: true
+        }
+    }
+});
